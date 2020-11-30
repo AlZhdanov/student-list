@@ -32,7 +32,7 @@ Student.init(
         allowNull: false,
       },
       grade: {
-        type: new DataTypes.INTEGER,
+        type: new DataTypes.STRING(128),
         allowNull: false,
       },
     },
